@@ -28,4 +28,5 @@ func (p *PowerShell) Execute(args ...string) (stdOut string, stdErr string, err 
 	err = cmd.Run()
 	stdOut, stdErr = stdout.String(), stderr.String()
 	return
+
 }
